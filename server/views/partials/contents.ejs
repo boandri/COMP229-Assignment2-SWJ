@@ -1,0 +1,207 @@
+<!--Using if statement to direct to each pages-->
+<% if(title == "Home"){ %>
+    <section>
+        <!--welcoming message-->
+        <h1 class="display-5">Welcome to Seo Woo's <%= title %> page</h1>
+        <div style="background-color: rgba(128, 128, 128, 0.087);">
+            <!--Mission statement in home page-->
+            <table>
+                <tr>
+                    <td style="padding: 20px;">
+                        <h5 class="display-6" style="margin-left: 20px;">SWJ</h5>
+                        <p>&nbsp;To enhancing the business growth of customers with creative Design and Development to deliver market-defining high-quality solutions for clients around the world.</p>
+                        <!--button link to About Me page-->
+                        <a href="/about"><button type="button" class="btn btn-primary">Learn more</button></a>
+                    </td>
+                    <td>
+                        <p><img src="/Assets/images/home_001.jpg" style="width: 55vw; margin-right: 20px; float: right;"></p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+        <br><br><br>
+    </section>
+<% } %>
+    
+<% if(title == "About Me"){ %>
+    <section>
+        <h1 class="display-5">Welcome to Seo Woo's <%= title %> page</h1>
+        <table style="background-color: rgba(128, 128, 128, 0.087);">
+            <tr>
+                <td style="padding: 20px;">
+                    <br>
+                    <!--My photo-->
+                    <p><img src="/Assets/images/photo.JPG" style="width: 16vw; min-width: 340px;; float: right; margin-right: 20px;"></p>
+                    <!--Simple descriptive title-->
+                    <h5 class="display-6" style="margin-left: 20px;">Web Development</h5>
+                    <h5 class="display-6" style="margin-left: 20px;">& Design</h5>
+                    <!--Explanation about myself-->
+                    <p>
+                        <br>
+                        <b>&nbsp;Seo Woo Jang</b> is a innovative, task-driven junior in web design and development across diverse industries. Proficient in developing databases, creating user interfaces, and implementing new features based on user feedback.
+                    </p>
+                    <br>
+                    <ul>
+                        <li>Current student at Centennial College – Software Engineering Technician.</li>
+                        <li>Experience in managing database using Oracle SQL developer and SAP in Supply Chain Management team(Amore Pacific inc.).</li>
+                        <li>Knowledge of C#, HTML, CSS, JavaScript, Python and GitHub.</li>
+                        <li>Strong communication skills; multilingual in Korean and English.</li>
+                        <li>Well organized and good at time management skills.</li>
+                    </ul>
+                    <br>
+                    <h5>Mission Statement</h5>
+                    <p>
+                        &nbsp;To enhancing the business growth of customers with creative Design and Development to deliver market-defining high-quality solutions for clients around the world.
+                    </p>
+                    <br>
+                    <!--PDF Resume link-->
+                    <h5>Resume</h5>
+                    <a href="/Assets/files/seowoojang_resume.pdf">Click here to download Seo Woo Jang's resume.</a>
+                    <br><br>
+                </td>
+            </tr>
+        </table>
+        <br><br><br><br>
+    </section>
+<% } %>
+
+<% if(title == "Projects"){ %>
+    <section>
+        <h1 class="display-5">Welcome to Seo Woo's <%= title %> page</h1>
+        <table style="background-color: rgba(128, 128, 128, 0.087);">
+            <tr>
+                <td>
+                    <br>
+                    <!--Simple descriptive title-->
+                    <p>
+                        <h5 class="display-6" style="margin-left: 20px;">Current</h5>
+                        <h5 class="display-6" style="margin-left: 20px;">& Past Projects</h5>
+                    </p>
+                </td>
+            </tr>
+            <!--images and information for 3 projects-->
+            <tr>
+                <td style="padding: 20px;">
+                    &nbsp;<b>ANABADA</b> is a web base application that provides secondhand deals, community information and other related internet services. Project is being developed by team "CVel" from Centennial College students to develop a secondhand trading life information software.
+                </td>
+                <td>
+                    <p><img src="/Assets/images/prj_008.png" style="width: 16vw; min-width: 400px; margin-right: 20px; margin-left: 20px; margin-top: 20px; margin-bottom: 20px;"></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;">
+                    &nbsp;<b>CEC/IE Form</b> is an online survey questionnaire that the target audience can complete over the Internet. The target audiences were set to Centennial College students and were asked to rate about their Instructor and education courses.
+                </td>
+                <td>
+                    <p><img src="/Assets/images/prj_004.png" style="width: 16vw; min-width: 400px; margin-right: 20px; margin-left: 20px; margin-top: 20px; margin-bottom: 20px;"></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;">
+                    &nbsp;<b>Product Promotion Page</b> is a web page promoting an item. This online page provides basic product information as well as friendly and design-wise intuitive banner. 
+                </td>
+                <td>
+                    <p><img src="/Assets/images/prj_003.png" style="width: 16vw; min-width: 400px; margin-right: 20px; margin-left: 20px; margin-top: 20px; margin-bottom: 20px;"></p>
+                </td>
+            </tr>
+        </table>
+        <br><br><br>
+    </section>
+<% } %>
+
+<% if(title == "Services"){ %>
+    <section>
+        <h1 class="display-5">Welcome to Seo Woo's <%= title %> page</h1>
+        <table style="background-color: rgba(128, 128, 128, 0.087);">
+            <tr>
+                <td>
+                    <br>
+                    <!--Simple descriptive title-->
+                    <p>
+                        <h5 class="display-6" style="margin-left: 20px;">Provided Services</h5>
+                    </p>
+                </td>
+            </tr>
+            <!--short list of services with images-->
+            <tr>
+                <td style="padding: 20px;">
+                    <b>Database Management</b> service is available through SQL developer and SAP.
+                </td>
+                <td>
+                    <p><img src="/Assets/images/svc_001.jpg" style="width: 16vw; min-width: 400px; margin-right: 20px; margin-left: 20px; margin-top: 20px; margin-bottom: 20px;"></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;">
+                    <b>Web Development</b> service is available. Experience the subtle art of visual storytelling.
+                </td>
+                <td>
+                    <p><img src="/Assets/images/svc_002.jpg" style="width: 16vw; min-width: 400px; margin-right: 20px; margin-left: 20px; margin-top: 20px; margin-bottom: 20px;"></p>
+                </td>
+            </tr>
+        </table>
+        <br><br><br>
+    </section>
+<% } %>
+
+<% if(title == "Contact Me"){ %>
+    <section>
+        <h1 class="display-5">Welcome to Seo Woo's <%= title %> page</h1>
+        <div style="background-color: rgba(128, 128, 128, 0.087);">
+            <br>
+            <table>
+                <tr>
+                    <td id="tableLeft">
+                        <form action="mailto:seowoojang05@gmail.com" method="post">
+                            <!--Contact form fieldset-->
+                            <fieldset>
+                                <legend class="display-6" style="margin-left: 20px;">Contact Me</legend>
+                                <br><br>
+                                <p>
+                                    <label class="form" for="txtFName">First Name:</label><input id="txtFName" name="txtFName" size="25" type="text" required="required" tabindex="1">
+                                </p>
+                                <p>
+                                    <label class="form" for="txtLName">Last Name:</label>
+                                    <input id="txtLName" name="txtLName" size="25" type="text" required="required" tabindex="3">
+                                </p>
+                                <p>
+                                    <label class="form" for="txtEmail">Email:</label>
+                                    <input id="txtEmail" name="txtEmail" size="25" type="email" required="required" tabindex="5">
+                                </p>
+                                <p>
+                                    <label class="form" for="txtPhone">Phone Number:</label>
+                                    <input id="txtPhone" name="txtPhone" size="25" type="tel" tabindex="7">
+                                </p>
+                                <p>
+                                    <label class="form" for="txtMsg">Message:</label>
+                                    <textarea id="txtMsg" name="txtMsg" cols="24" rows="3" tabindex="9" placeholder="---Please let me know about any special comments you may require---"></textarea>
+                                </p>
+                            </fieldset>
+                            <!--Submit and clear button-->
+                            <p id="btn">
+                                <input name="btnsubmit" type="submit" value="Submit" tabindex="11" class="btn btn-primary">
+                                <input type="reset" name="btnReset" value="Clear Form" tabindex="13" class="btn btn-primary">
+                            </p>
+                        </form>
+                    </td>
+                    <td>
+                        <aside>
+                            <figure id="contactInfo">
+                                <!--My contact information-->
+                                <p>
+                                    <a class="navbar-brand" href="/"><img src="Assets/images/logo.jpg" style="width: 3vw"></a>
+                                </p>
+                                <p>
+                                    <a class="anchor" href="tel:437-240-3625"> (437) 240-3625</a><br>
+                                <br><a class="anchor" href="mailto:seowoojang05@gmail.com">seowoojang05@gmail.com</a>
+                                <br>
+                                </p>
+                            </figure>
+                        </aside>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+<% } %>

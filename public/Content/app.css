@@ -1,0 +1,56 @@
+/*
+COMP229-001 Assignment1
+app.css
+Seo Woo Jang
+301104016
+Oct 08 2022
+*/
+
+#tableLeft {
+    padding-left: 30 px;
+}
+
+#field {
+
+    padding-left: 30px;
+}
+
+.anchor {
+    
+    color: #5a5959;
+}
+
+.anchor:hover {
+    color: #177df9;
+}
+
+aside { 
+	text-align: center; 
+}
+
+.form {
+    width: 130px;
+    float: left;
+    text-align: right;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+li {
+    text-decoration: none;
+}
+input {
+    margin-left: 10px;
+}
+
+#btn {
+    margin-left: 190px;
+}
+
+#contactInfo {
+    margin-left: 190px;
+}
